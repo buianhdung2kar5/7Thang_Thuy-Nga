@@ -111,12 +111,12 @@ window.addEventListener("load", () => {
     const timeRect = dateTime.getBoundingClientRect();
     const centerY = timeRect.top + timeRect.height / 2;
     const midX = (p1.x + p2.x) / 2;
-    const endPoint = { x: midX, y: centerY + 80 };
+    const endPoint = { x: midX, y: centerY + 30 };
 
     const leftCP1 = { x: p1.x - 200, y: p1.y - 150 };
-    const leftCP2 = { x: p1.x - 160, y: centerY - 50 };
+    const leftCP2 = { x: p1.x - 110, y: centerY - 50 };
     const rightCP1 = { x: p2.x + 200, y: p2.y - 150 };
-    const rightCP2 = { x: p2.x + 160, y: centerY - 50 };
+    const rightCP2 = { x: p2.x + 110, y: centerY - 50 };
 
     // Left heart curve
     ctx.beginPath();
